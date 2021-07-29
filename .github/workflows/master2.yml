@@ -30,7 +30,7 @@ jobs:
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: Run a one-line script   
         run: echo Hello, flasksql!
 
       # Building
